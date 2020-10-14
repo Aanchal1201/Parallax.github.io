@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.section {
+    width: 100%;
+    /* border: 2px solid red; */
+    font-size: 1.4rem;
+    padding: 50px 75px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.section p {
+    padding: 25px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+
+#section1 {
+    background-color: #f0ebeb;
+    color: rgb(51, 48, 48);
+}
+
+#section2,
+#section3 {
+    background-color: black;
+    color: white;
+}
+
+.img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+    text-align: center;
+}
+
+#img1 {
+    background-image: url('https://source.unsplash.com/user/erondu/1600x900');
+    min-height: 100vh;
+}
+
+#img2 {
+    background-image: url('https://source.unsplash.com/collection/190727/1600x900');
+    min-height: 80vh;
+}
+
+#img3 {
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    min-height: 80vh;
+}
+
+#img4 {
+    background-image: url('https://source.unsplash.com/1600x900/?water');
+    min-height: 100vh;
+}
+
+.caption1 {
+    position: relative;
+    top: 50vh;
+    color: white;
+    letter-spacing: 8px;
+    font-size: 1.8rem;
+}
+.caption2 {
+    position: relative;
+    top: 40vh;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+}
+
+.effect {
+    display: inline;
+    padding: 16px;
+    background-color: black;
+}
